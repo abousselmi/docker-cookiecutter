@@ -15,7 +15,7 @@ docker run -it --rm \
 	-e TEMPLATE=gh:pydanny/cookiecutter-django \
 	-e OUT_DIR=/cookie \
 	-v $PWD:/cookie \
-	cookiecutter/cookiecutter
+	abousselmi/docker-cookiecutter
 ```
 
 # Contributing
